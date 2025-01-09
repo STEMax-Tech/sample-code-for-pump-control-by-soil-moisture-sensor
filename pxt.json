@@ -5,19 +5,21 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "AT24CXX": "github:makecode-extensions/at24xx#v1.0.0"
     },
     "files": [
         "README.md",
         "main.blocks",
-        "main.ts"
+        "main.ts",
+        "main.py"
     ],
     "testFiles": [
         "test.ts"
     ],
     "public": true,
     "targetVersions": {
-        "target": "7.0.51",
+        "target": "7.0.57",
         "targetId": "microbit"
     },
     "supportedTargets": [
