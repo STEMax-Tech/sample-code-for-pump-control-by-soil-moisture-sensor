@@ -61,9 +61,9 @@ basic.forever(function () {
 basic.forever(function () {
     if (soilMoisture > setSoilMoisture) {
         pins.digitalWritePin(DigitalPin.P13, 0)
-        pins.digitalWritePin(DigitalPin.P4, 0)
+        pins.digitalWritePin(DigitalPin.P14, 0)
     } else {
         pins.digitalWritePin(DigitalPin.P13, 0)
-        pins.digitalWritePin(DigitalPin.P13, 1)
+        pins.digitalWritePin(DigitalPin.P14, 1)
     }
 })
